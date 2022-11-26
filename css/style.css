@@ -28,6 +28,18 @@ img {
     display: block;
 }
 
+.current {
+    color: var(--button-color-web-second);
+}
+
+.current::after {
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--button-color-web-second);  
+}
+
 :root {
     /* вторичный цвет лого */
     --font-logo-second: #000000;  
@@ -100,159 +112,134 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
 }
- /* ----------------------Верхня частина ХЕДЕР---------------------  */
+ /* ========================= Верхня частина ХЕДЕР =========================  */
 
 .header {
     border-bottom: 1px solid var(--border-bottom-header);
 }
 
-.header-container {
+.header__container {
     display: flex;
-    align-items: center;
-    
-  
+    align-items: center;  
   }
- /* Логотип */
-.header-logo {
-    color: var(--button-color-web-second);
+
+ /* === Логотип === */
+.header__logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
-
     margin-right: 93px;
+    color: var(--button-color-web-second);   
 }
 
-.header-icons {
-    fill: currentColor;
-}
-
-.logo-header {
+.header__logo-black {
     color: var(--font-logo-second);
 }
- 
-/* Навигация */
 
-.header-nav {
-    margin-right: auto;
-    
+/* ========================= Навигация ========================= */
+
+.main-nav {
+    margin-right: auto;    
 }
 
-.nav-list {
+.main-nav__list {
     display: flex;
     align-items: center;
     gap: 50px;
 }
 
-
-
-.nav-link {
+.main-nav__link {
     position: relative; 
     display: block; 
     padding-top: 32px; 
-    padding-bottom: 32px; 
-    color: var(--color-font-h2-h3-name);
+    padding-bottom: 32px;
     font-weight: 500; 
     font-size: 14px; 
     line-height: calc(16 / 14); 
     letter-spacing: 0.02em; 
+    color: var(--color-font-h2-h3-name);
     transition: color var(--hover-effect);
-    
-}
-.current {
-    color: var(--button-color-web-second);
 }
 
-.current::after {
-    display: block;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: var(--button-color-web-second);  
+.main-nav__link:hover,
+.main-nav__link:focus {
+    color: var(--button-color-web-second);    
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: var(--button-color-web-second);
-    
-;}
-
-/* Рисочка  */
- .nav-link::after {
+/* === Рисочка === */
+.main-nav__link::after {
     content: '';
     position: absolute;
     left: 50%;
     bottom: -1%;
     transform: translateX(-50%); 
-
  }
 
-/* ссылка на сайт и тел */
+/* ========================= ссылка на сайт и тел =========================*/
 
-.header-group {
+.header__contact {
     display: flex;
     gap: 50px;
 }
 
-.header-contact {
-    color: var(--color-font-contact-p);
+.header__link {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 10px;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    color: var(--color-font-contact-p);
     transition: color var(--hover-effect);
 }
 
-.header-contact:hover,
-.header-contact:focus {
-    color: var(--button-color-web-second)
+.header__link:hover,
+.header__link:focus {
+    color: var(--button-color-web-second);
 }
 
-/* ----------------------------Секція 1/4 (Герой - HERO)----------------- */
+.header__icons {
+    fill: currentColor;
+}
+
+/* ========================= Секція 1/4 (Герой - HERO) ========================= */
 
 
 /* секция герой фон */
 .hero {
     background-color: var(--background-color-section1-footer);
-    height: 600px;
-  
+    height: 600px;  
 }
 
 /* Фоновая картинка. Слои ПАРАМЕТРЫ ДЛЯ САМОЙ КАРТИНКИ */
-
-.overlay-hero {
+.hero__overlay {
     max-width: 1600px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
-    url(../images/hero.jpg);
     padding-top: 200px;
     padding-bottom: 200px;
     background-clip: padding-box;
-    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+    url(../images/hero.jpg);    
 }
 
-
-.hero-section-container {
+.hero__container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  
+    align-items: center;  
 }
 
-/* герой н1 */
-.hero-section {
+/* ========================= н1 ========================= */
+.hero__title {
     color: var(--color-font-hero-address);
     font-weight: 900;
     font-size: 44px;
@@ -265,27 +252,26 @@ body {
     margin-bottom: 30px;
  }
 /* герой кнопка */
-.hero-btn {
-    color: var(--color-font-hero-address);
-    background-color: var(--button-color-web-second);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: calc(30 / 16);
+.button {
     display: inline-block;
     align-items: center;
     text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
     letter-spacing: 0.06em;
     font-family: inherit;
     border: 1px solid transparent;
-    
     border-radius: 4px;
-    cursor: pointer;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    color: var(--color-font-hero-address);
+    background-color: var(--button-color-web-second);
     transition: background-color var(--hover-effect);
+    cursor: pointer;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.button:hover,
+.button:focus {
     background-color: var(--button-color-web-second-hover);
 }
 
@@ -294,11 +280,9 @@ body {
     min-height: 50px;
 }
 
-/* -----------------------------Секція 2/4 (Перевага)------------------- */
+/* ========================= Секція 2/4 (Перевага) ========================= */
 
-/* заглавие */
-
-.container-advantage {
+.advantage__container {
     display: block;
 }
 
@@ -306,39 +290,40 @@ body {
     display: flex;
     gap: 30px;
 }
-.advantage-fram {
+
+.advantage__fram {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 270px;
     height: 120px;
-    background-color: #F5F4FA;
     margin-bottom: 30px;
-    border-radius: 4px
+    border-radius: 4px;
+    background-color: #F5F4FA;
 }
+
 /* картинка - антена, часы, диаграмма, космонафт */
-.advantage-icon {
+.advantage__icon {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
-.advantage-title {
-    color: var(--color-font-h2-h3-name);
+.advantage__title {
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
+    color: var(--color-font-h2-h3-name);
 }
 
 /* описание */
-.advantage-description {
-    color: var(--color-font-contact-p);
+.advantage__text {
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
+    color: var(--color-font-contact-p);
 }
 
 /* -----------------------Секція 3/4 (Послуги - SERVICES)------------------- */
