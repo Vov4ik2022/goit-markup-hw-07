@@ -103,4 +103,121 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: var(--button-color-web-second);
+}
+
+.header {
+  border-bottom: 1px solid var(--border-bottom-header);
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923076923;
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+  color: var(--button-color-web-second);
+}
+
+.logo__black {
+  color: var(--font-logo-second);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923076923;
+  letter-spacing: 0.03em;
+  color: var(--button-color-web-second);
+}
+
+.logo__white {
+  color: var(--color-font-hero-address);
+}
+
+.main-nav {
+  margin-right: auto;
+}
+
+.main-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+
+.main-nav__link {
+  position: relative;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428571429;
+  letter-spacing: 0.02em;
+  color: var(--color-font-h2-h3-name);
+  -webkit-transition: color var(--hover-effect);
+  transition: color var(--hover-effect);
+}
+
+.main-nav__link:hover,
+.main-nav__link:focus {
+  color: var(--button-color-web-second);
+}
+
+.main-nav__link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -1%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+
+.contact__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428571429;
+  letter-spacing: 0.02em;
+  color: var(--color-font-contact-p);
+  -webkit-transition: color var(--hover-effect);
+  transition: color var(--hover-effect);
+}
+
+.contact__link:hover,
+.contact__link:focus {
+  color: var(--button-color-web-second);
+}
+
+.contact__icons {
+  fill: currentColor;
 }/*# sourceMappingURL=main.css.map */

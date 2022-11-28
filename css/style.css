@@ -119,17 +119,17 @@ body {
 } */
  /* ========================= Верхня частина ХЕДЕР =========================  */
 
-.header {
+/* .header {
     border-bottom: 1px solid var(--border-bottom-header);
 }
 
 .header__container {
     display: flex;
     align-items: center;  
-  }
+  } */
 
  /* === Логотип === */
-.header__logo {
+/* .logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -139,13 +139,13 @@ body {
     color: var(--button-color-web-second);   
 }
 
-.header__logo-black {
+.logo__black {
     color: var(--font-logo-second);
-}
+} */
 
 /* ========================= Навигация ========================= */
 
-.main-nav {
+/* .main-nav {
     margin-right: auto;    
 }
 
@@ -173,23 +173,23 @@ body {
     color: var(--button-color-web-second);    
 }
 
-/* === Рисочка === */
+=== Рисочка ===
 .main-nav__link::after {
     content: '';
     position: absolute;
     left: 50%;
     bottom: -1%;
     transform: translateX(-50%); 
- }
+ } */
 
 /* ========= ссылка на сайт и тел =======*/
 
-.header__contact {
+/* .contact {
     display: flex;
     gap: 50px;
 }
 
-.header__link {
+.contact__link {
     display: flex;
     align-items: center;
     padding-top: 32px;
@@ -203,14 +203,14 @@ body {
     transition: color var(--hover-effect);
 }
 
-.header__link:hover,
-.header__link:focus {
+.contact__link:hover,
+.contact__link:focus {
     color: var(--button-color-web-second);
 }
 
-.header__icons {
+.contact__icons {
     fill: currentColor;
-}
+} */
 
 /* ========================= Секція 1/4 (Герой - HERO) ========================= */
 
@@ -544,7 +544,7 @@ body {
 }
 
 /* логотип */
-.footer__logo {
+/* .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -553,9 +553,9 @@ body {
     color: var(--button-color-web-second);
 }
 
-.footer__logo-white {
+.logo__white {
     color: var(--color-font-hero-address);
-}
+} */
 
 /* адресс */
 .address {
