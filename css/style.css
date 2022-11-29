@@ -215,13 +215,13 @@ body {
 /* ========================= Секція 1/4 (Герой - HERO) ========================= */
 
 
-/* секция герой фон */
+/* секция герой фон
 .hero {
     background-color: var(--background-color-section1-footer);
     height: 600px;  
 }
 
-/* Фоновая картинка. Слои ПАРАМЕТРЫ ДЛЯ САМОЙ КАРТИНКИ */
+Фоновая картинка. Слои ПАРАМЕТРЫ ДЛЯ САМОЙ КАРТИНКИ
 .hero__overlay {
     max-width: 1600px;
     height: 600px;
@@ -243,7 +243,7 @@ body {
     align-items: center;  
 }
 
-/* ========================= н1 ========================= */
+========================= н1 =========================
 .hero__title {
     color: var(--color-font-hero-address);
     font-weight: 900;
@@ -252,12 +252,11 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
     width: 696px;
     margin-bottom: 30px;
- }
+ } */
 /* герой кнопка */
-.button {
+/* .button {
     display: inline-block;
     align-items: center;
     text-align: center;
@@ -283,9 +282,14 @@ body {
 .order-btn {
     min-width: 216px;
     min-height: 50px;
-}
+} */
 
 /* ========================= Секція 2/4 (Перевага) ========================= */
+
+/* .advantage {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .advantage__container {
     display: block;
@@ -304,10 +308,10 @@ body {
     height: 120px;
     margin-bottom: 30px;
     border-radius: 4px;
-    background-color: #F5F4FA;
+    background-color: var(--background-color-team);
 }
 
-/* картинка - антена, часы, диаграмма, космонафт */
+картинка - антена, часы, диаграмма, космонафт
 .advantage-list__icon {
     display: flex;
     justify-content: center;
@@ -323,13 +327,13 @@ body {
     color: var(--color-font-h2-h3-name);
 }
 
-/* описание */
+описание
 .advantage-list__text {
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--color-font-contact-p);
-}
+} */
 
 /* -----------------------Секція 3/4 (Послуги - SERVICES)------------------- */
 
@@ -382,8 +386,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--color-font-hero-address);  
 }
-
-
 
 
 /* --------------------------Секція 4/4 (Команда - TEAM)-------------------- */
