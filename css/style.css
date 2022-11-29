@@ -337,10 +337,10 @@ body {
 
 /* -----------------------Секція 3/4 (Послуги - SERVICES)------------------- */
 
-.services {
+/* .services {
     padding-top: 0;
 }
-/* заглавие */
+заглавие
 .services__container {
     display: flex;
     flex-direction: column;
@@ -385,17 +385,17 @@ body {
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
     color: var(--color-font-hero-address);  
-}
+} */
 
 
 /* --------------------------Секція 4/4 (Команда - TEAM)-------------------- */
 
-/* цвет фона общий*/
+/* цвет фона общий
 .team {
     background-color: var(--background-color-team);
 }
 
-/* заглавие */
+заглавие
 .team__title {
     text-align: center;
     font-size: 36px;
@@ -411,7 +411,7 @@ body {
     gap: 30px;
 }
 
-/* цвет фона картинки */
+цвет фона картинки
 .team-list__item {
     width: 270px;
     height: 428px;
@@ -425,7 +425,7 @@ body {
     padding-bottom: 30px;
 }
 
-/* имя h3 */
+имя h3
 .team-section__title {
     text-align: center;
     font-weight: 500px;
@@ -436,7 +436,7 @@ body {
     color: var(--color-font-h2-h3-name);
 }
 
-/* должность */
+должность
 .team-section__text {
     text-align: center;
     font-size: 16px;
@@ -444,9 +444,9 @@ body {
     letter-spacing: 0.03em;
     margin-bottom: 16px; 
     color: var(--color-font-contact-p);  
-}
+} */
 
-.team-socials {
+/* .socials {
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -454,8 +454,8 @@ body {
     gap: 10px;
 }
 
-/* цвет иконки соцсети */
-.team-socials__link {
+цвет иконки соцсети
+.socials__link {
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -466,22 +466,22 @@ body {
     transition: color var(--hover-effect), background-color var(--hover-effect), fill var(--hover-effect);
 }
 
-.team-socials__link:hover,
-.team-socials__link:focus {
+.socials__link:hover,
+.socials__link:focus {
     background-color: var(--button-color-web-second);
     border-radius: 50%;
     fill: var(--color-fill-white);    
-}
+} */
 
 /* __________________________Новая 5-я секция. Постійні клієнти ____________________ */
 
-.partners__container {
+/* .partners__container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Постійний клієнт */
+Постійний клієнт
 .partners__title {
     text-align: center;
     font-size: 36px;
@@ -491,19 +491,19 @@ body {
     color: var(--color-font-h2-h3-name);
 }
 
-.partners-list {
+.partners__list {
     display: flex; 
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
 
-.partners-list__item {
+.partners__item {
     width: 170px;
     height: 92px; 
 }
 
-.partners-list__link {
+.partners__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -515,11 +515,11 @@ body {
     transition: fill var(--hover-effect);
 }
 
-.partners-list__link:hover,
-.partners-list__link:focus {
+.partners__link:hover,
+.partners__link:focus {
     fill: var(--color-fill-hover);
     border: 1px solid #2196F3;
-} 
+}  */
 
 
 
