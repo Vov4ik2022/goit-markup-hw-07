@@ -1,0 +1,43 @@
+.address {
+    margin-top: 20px;
+}
+
+.address__list {
+    font-style: normal;
+    display: flex;
+    flex-direction: column;    
+}
+
+.address__item:not(:last-child) {
+    margin-bottom: 9px;   
+}
+
+.address__map {
+    color: var(--color-font-hero-address);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    transition: color var(--hover-effect);
+    
+}
+
+.address__map:hover,
+.address__map:focus {
+    color: var(--button-color-web-second);
+}
+
+/* имеил и тел */
+.address__contact {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em; 
+    transition: color var(--hover-effect);
+}
+
+.address__contact:hover,
+.address__contact:focus {
+    color: var(--button-color-web-second);
+}

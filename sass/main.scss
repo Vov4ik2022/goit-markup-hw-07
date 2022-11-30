@@ -6,6 +6,7 @@
 // base styles
 @import './base/base';
 @import './base/reset';
+@import './base/grit-list';
 
 // components styles
 @import './components/section';
@@ -21,3 +22,11 @@
 @import './components/services';
 @import './components/team';
 @import './components/socials';
+@import './components/partners';
+@import './components/footer';
+@import './components/address';
+@import './components/mailing';
+@import './components/portfolio';
+@import './components/filter';
+@import './components/gallery';
+@import './components/modal';

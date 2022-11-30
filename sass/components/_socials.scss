@@ -6,6 +6,11 @@
     gap: 10px;
 }
 
+.socials__item {
+    width: 44px;
+    height: 44px;
+}
+
 /* цвет иконки соцсети */
 .socials__link {
     display: flex; 
@@ -15,7 +20,9 @@
     height: 44px;
     border-radius: 50%;
     fill: #AFB1B8;
-    transition: color var(--hover-effect), background-color var(--hover-effect), fill var(--hover-effect);
+    transition: color var(--hover-effect), 
+    background-color var(--hover-effect), 
+    fill var(--hover-effect);
 }
 
 .socials__link:hover,
@@ -23,4 +30,9 @@
     background-color: var(--button-color-web-second);
     border-radius: 50%;
     fill: var(--color-fill-white);    
+}
+
+.socials__link--grey {
+    fill: var(--color-fill-white);
+    background-color: rgba(255,255,255,0.1);   
 }

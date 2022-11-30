@@ -24,8 +24,8 @@
     <!-- Верхня частина ХЕДЕР -->
     <header class="header">
       <div class="header__container container">
-        <a class="header__logo link" href="./index.html">
-          Web<span class="header__logo-black">Studio</span>
+        <a class="logo link" href="./index.html">
+          Web<span class="logo__black">Studio</span>
         </a>
         <nav class="main-nav">
           <!-- Навігація сайту -->
@@ -43,15 +43,15 @@
         </nav>
 
         <!-- Контакти -->
-        <div class="header__contact">
-          <a href="mailto:info@devstudio.com" class="header__link link">
-            <svg class="header__icons" width="16px" height="12px">
+        <div class="contact">
+          <a href="mailto:info@devstudio.com" class="contact__link link">
+            <svg class="contact__icons" width="16px" height="12px">
               <use href="./images/icons.svg#envelope"></use>
             </svg>
             info@devstudio.com
           </a>
-          <a href="tel:+380961111111" class="header__link link">
-            <svg class="header__icons" width="10px" height="16px">
+          <a href="tel:+380961111111" class="contact__link link">
+            <svg class="contact__icons" width="10px" height="16px">
               <use href="./images/icons.svg#smartphone"></use>
             </svg>
             +38 096 111 11 11
@@ -59,14 +59,14 @@
         </div>
       </div>
     </header>
-
-    <main class="main-page">
+    <!-- Портфолио -->
+    <main class="portfolio-page">
       <!-- скритий текст -->
       <h2 class="visually-hidden">ПОРТФОЛИО</h2>
       <!-- секція фільтров -->
-      <section class="filters section">
-        <div class="filters__page container">
-          <ul class="filter__list list">
+      <section class="portfolio section">
+        <div class="portfolio-container container">
+          <ul class="filter list">
             <li class="filter__item">
               <button type="button" class="filter__button">Усі</button>
             </li>
@@ -86,13 +86,13 @@
 
 
           <!-- Галерея -->
-          <ul class="gallery-list grid-list list">
+          <ul class="gallery grid-list list">
             <li class="gallery__item grid-item">
               <a href="" class="gallery__link link">
-                <div class="team-thumb">
+                <div class="overlay-invisible">
                   <img src="./images/photo1.jpg" alt="Ноутбук" width="370" height="294"/>
-                  <div class="overlay-gall">
-                    <p class="overlay-gall__portfol"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
+                  <div class="overlay-invisible__block">
+                    <p class="overlay-invisible__text"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
                   </div>
                 </div>
                 <div class="gallery__container">
@@ -103,15 +103,10 @@
             </li>
             <li class="gallery__item grid-item">
               <a href="" class="gallery__link link">
-                <div class="team-thumb">
-                  <img
-                    src="./images/photo2.jpg"
-                    alt="Баскетбол"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="overlay-gall">
-                    <p class="overlay-gall__portfol"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
+                <div class="overlay-invisible">
+                  <img src="./images/photo2.jpg" alt="Баскетбол" width="370" height="294"/>
+                  <div class="overlay-invisible__block">
+                    <p class="overlay-invisible__text"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
                   </div>
                 </div>  
                 <div class="gallery__container">
@@ -124,15 +119,15 @@
             </li>
             <li class="gallery__item grid-item">
               <a href="" class="gallery__link link">
-                <div class="team-thumb">
+                <div class="overlay-invisible">
                   <img
                     src="./images/photo3.jpg"
                     alt="Рибалка"
                     width="370"
                     height="294"
                   />
-                  <div class="overlay-gall">
-                    <p class="overlay-gall__portfol"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
+                  <div class="overlay-invisible__block">
+                    <p class="overlay-invisible__text"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
                   </div>
                 </div>
                 <div class="gallery__container">
@@ -143,15 +138,15 @@
             </li>
             <li class="gallery__item grid-item">
               <a href="" class="gallery__link link">
-                <div class="team-thumb">
+                <div class="overlay-invisible">
                   <img
                     src="./images/photo4.jpg"
                     alt="Навушники"
                     width="370"
                     height="294"
                   />
-                  <div class="overlay-gall">
-                    <p class="overlay-gall__portfol"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
+                  <div class="overlay-invisible__block">
+                    <p class="overlay-invisible__text"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
                   </div>
                 </div>
                 <div class="gallery__container">
@@ -162,15 +157,15 @@
             </li>
             <li class="gallery__item grid-item">
               <a href="" class="gallery__link link">
-                <div class="team-thumb">
+                <div class="overlay-invisible">
                   <img
                     src="./images/photo5.jpg"
                     alt="Короба"
                     width="370"
                     height="294"
                   />
-                  <div class="overlay-gall">
-                    <p class="overlay-gall__portfol"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
+                  <div class="overlay-invisible__block">
+                    <p class="overlay-invisible__text"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
                   </div>
                 </div>
                 <div class="gallery__container">
@@ -181,15 +176,15 @@
             </li>
             <li class="gallery__item grid-item">
               <a href="" class="gallery__link link">
-                <div class="team-thumb">
+                <div class="overlay-invisible">
                   <img
                     src="./images/photo6.jpg"
                     alt="Монітор"
                     width="370"
                     height="294"
                   />
-                  <div class="overlay-gall">
-                    <p class="overlay-gall__portfol"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
+                  <div class="overlay-invisible__block">
+                    <p class="overlay-invisible__text"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
                   </div>
                 </div>
                 <div class="gallery__container">
@@ -200,15 +195,15 @@
             </li>
             <li class="gallery__item grid-item">
               <a href="" class="gallery__link link">
-                <div class="team-thumb">
+                <div class="overlay-invisible">
                   <img
                     src="./images/photo7.jpg"
                     alt="Стаття"
                     width="370"
                     height="294"
                   />
-                  <div class="overlay-gall">
-                    <p class="overlay-gall__portfol"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
+                  <div class="overlay-invisible__block">
+                    <p class="overlay-invisible__text"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
                   </div>
                 </div>
                 <div class="gallery__container">
@@ -219,15 +214,15 @@
             </li>
             <li class="gallery__item grid-item">
               <a href="" class="gallery__link link">
-                <div class="team-thumb">
+                <div class="overlay-invisible">
                   <img
                     src="./images/photo8.jpg"
                     alt="Лейба"
                     width="370"
                     height="294"
                   />
-                  <div class="overlay-gall">
-                    <p class="overlay-gall__portfol"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
+                  <div class="overlay-invisible__block">
+                    <p class="overlay-invisible__text"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
                   </div>
                 </div>
                 <div class="gallery__container">
@@ -238,15 +233,15 @@
             </li>
             <li class="gallery__item grid-item">
               <a href="" class="gallery__link link">
-                <div class="team-thumb">
+                <div class="overlay-invisible">
                   <img
                     src="./images/photo9.jpg"
                     alt="Ноут"
                     width="370"
                     height="294"
                   />
-                  <div class="overlay-gall">
-                    <p class="overlay-gall__portfol"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
+                  <div class="overlay-invisible__block">
+                    <p class="overlay-invisible__text"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. </p>
                   </div>
                 </div>
                 <div class="gallery__container">
@@ -264,26 +259,26 @@
     <footer class="footer">
       <div class="footer__general container">
         <div class="footer__container">
-          <a href="./index.html" class="footer__logo link">
-            Web<span class="footer__logo-white">Studio</span>
+          <a href="./index.html" class="logo link">
+            Web<span class="logo__white">Studio</span>
           </a>
           <address class="address">
-            <ul class="footer-address__info list">
-              <li class="footer-address__item">
+            <ul class="address__list list">
+              <li class="address__item">
                 <a
                   href="https://goo.gl/maps/VrcMHXhKriwRzs2d6"
-                  class="footer-address__map link"
+                  class="address__map link"
                 >
                   м. Київ, пр-т Лесі Українки, 26
                 </a>
               </li>
-              <li class="footer-address__item">
-                <a href="mailto:info@devstudio.com" class="footer-address__contact link"
+              <li class="address__item">
+                <a href="mailto:info@devstudio.com" class="address__contact link"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="footer-address__item">
-                <a href="tel:+380961111111" class="footer-address__contact link"
+              <li class="address__item">
+                <a href="tel:+380961111111" class="address__contact link"
                   >+38 096 111 11 11
                 </a>
               </li>
@@ -292,31 +287,31 @@
         </div>
         <div class="footer__socials">
           <h2 class="footer__title">ПРИЄДНУЙТЕСЬ</h2>
-          <ul class="footer-socials__list list">
-            <li class="footer-socials__item">
-              <a href="" class="footer-socials__link link">
-                <svg class="footer-icon" width="20" height="20">
+          <ul class="socials list">
+            <li class="socials__item">
+              <a href="" class="socials__link socials__link--grey link">
+                <svg class="socials__icon" width="20" height="20">
                   <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-socials__item">
-              <a href="" class="footer-socials__link link">
-                <svg class="footer-icon" width="20" height="20">
+            <li class="socials__item">
+              <a href="" class="socials__link socials__link--grey link">
+                <svg class="socials__icon" width="20" height="20">
                   <use href="./images/icons.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-socials__item">
-              <a href="" class="footer-socials__link link">
-                <svg class="footer-icon" width="20" height="20">
+            <li class="socials__item">
+              <a href="" class="socials__link socials__link--grey link">
+                <svg class="socials__icon" width="20" height="20">
                   <use href="./images/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-socials__item">
-              <a href="" class="footer-socials__link link">
-                <svg class="footer-icon" width="20" height="20">
+            <li class="socials__item">
+              <a href="" class="socials__link socials__link--grey link">
+                <svg class="socials__icon" width="20" height="20">
                   <use href="./images/icons.svg#linkedin"></use>
                 </svg>
               </a>
@@ -324,13 +319,14 @@
           </ul>
         </div>
         <div>
-          <form class="footer-mailing" name="mailing_form">
+          <!-- Підписка -->
+          <form class="mailing" name="mailing_form">
             <div>
-              <label for="user_mail" class="footer-mailing__title"
+              <label for="user_mail" class="mailing__title"
                 >Підпишіться на розсилку</label
               >
               <input
-                class="footer-mailing__form"
+                class="mailing__form"
                 type="email"
                 name="user_mail"
                 id="user_mail"
