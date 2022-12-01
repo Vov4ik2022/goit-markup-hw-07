@@ -14,11 +14,12 @@
     background-color: var(--button-color-web-second);
     transition: background-color var(--hover-effect);
     cursor: pointer;
-}
 
-.button:hover,
-.button:focus {
-    background-color: var(--button-color-web-second-hover);
+
+    &:hover,
+    &:focus {
+        background-color: var(--button-color-web-second-hover);
+    }
 }
 
 .order-btn {

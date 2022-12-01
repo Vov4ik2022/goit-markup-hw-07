@@ -110,7 +110,6 @@ img {
 .current {
   color: var(--button-color-web-second);
 }
-
 .current::after {
   display: block;
   width: 100%;
@@ -122,7 +121,6 @@ img {
 .header {
   border-bottom: 1px solid var(--border-bottom-header);
 }
-
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -162,7 +160,6 @@ img {
 .main-nav {
   margin-right: auto;
 }
-
 .main-nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -172,7 +169,6 @@ img {
           align-items: center;
   gap: 50px;
 }
-
 .main-nav__link {
   position: relative;
   display: block;
@@ -186,12 +182,9 @@ img {
   -webkit-transition: color var(--hover-effect);
   transition: color var(--hover-effect);
 }
-
-.main-nav__link:hover,
-.main-nav__link:focus {
+.main-nav__link:hover, .main-nav__link:focus {
   color: var(--button-color-web-second);
 }
-
 .main-nav__link::after {
   content: "";
   position: absolute;
@@ -207,7 +200,6 @@ img {
   display: flex;
   gap: 50px;
 }
-
 .contact__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -226,12 +218,9 @@ img {
   -webkit-transition: color var(--hover-effect);
   transition: color var(--hover-effect);
 }
-
-.contact__link:hover,
-.contact__link:focus {
+.contact__link:hover, .contact__link:focus {
   color: var(--button-color-web-second);
 }
-
 .contact__icons {
   fill: currentColor;
 }
@@ -240,7 +229,6 @@ img {
   background-color: var(--background-color-section1-footer);
   height: 600px;
 }
-
 .hero__overlay {
   max-width: 1600px;
   height: 600px;
@@ -255,7 +243,6 @@ img {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
 }
-
 .hero__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -268,7 +255,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .hero__title {
   color: var(--color-font-hero-address);
   font-weight: 900;
@@ -302,9 +288,7 @@ img {
   transition: background-color var(--hover-effect);
   cursor: pointer;
 }
-
-.button:hover,
-.button:focus {
+.button:hover, .button:focus {
   background-color: var(--button-color-web-second-hover);
 }
 
@@ -333,7 +317,6 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .advantage__container {
   display: block;
 }
@@ -344,7 +327,6 @@ img {
   display: flex;
   gap: 30px;
 }
-
 .advantage-list__fram {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -361,7 +343,6 @@ img {
   border-radius: 4px;
   background-color: var(--background-color-team);
 }
-
 .advantage-list__icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -373,7 +354,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .advantage-list__title {
   font-size: 14px;
   line-height: 1.1428571429;
@@ -382,7 +362,6 @@ img {
   margin-bottom: 10px;
   color: var(--color-font-h2-h3-name);
 }
-
 .advantage-list__text {
   font-size: 14px;
   line-height: 1.7142857143;
@@ -451,9 +430,8 @@ img {
 /* цвет фона общий*/
 .team {
   background-color: var(--background-color-team);
+  /* заглавие */
 }
-
-/* заглавие */
 .team__title {
   text-align: center;
   font-size: 36px;
@@ -471,9 +449,8 @@ img {
       -ms-flex-align: center;
           align-items: center;
   gap: 30px;
+  /* цвет фона картинки */
 }
-
-/* цвет фона картинки */
 .team-list__item {
   width: 270px;
   height: 428px;
@@ -486,9 +463,9 @@ img {
 .team-section {
   padding-top: 30px;
   padding-bottom: 30px;
+  /* имя h3 */
+  /* должность */
 }
-
-/* имя h3 */
 .team-section__title {
   text-align: center;
   font-weight: 500px;
@@ -498,8 +475,6 @@ img {
   margin-bottom: 10px;
   color: var(--color-font-h2-h3-name);
 }
-
-/* должность */
 .team-section__text {
   text-align: center;
   font-size: 16px;
@@ -521,14 +496,12 @@ img {
           align-items: center;
   padding: 0;
   gap: 10px;
+  /* цвет иконки соцсети */
 }
-
 .socials__item {
   width: 44px;
   height: 44px;
 }
-
-/* цвет иконки соцсети */
 .socials__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -546,19 +519,21 @@ img {
   -webkit-transition: color var(--hover-effect), background-color var(--hover-effect), fill var(--hover-effect);
   transition: color var(--hover-effect), background-color var(--hover-effect), fill var(--hover-effect);
 }
-
-.socials__link:hover,
-.socials__link:focus {
+.socials__link:hover, .socials__link:focus {
   background-color: var(--button-color-web-second);
   border-radius: 50%;
   fill: var(--color-fill-white);
 }
-
 .socials__link--grey {
   fill: var(--color-fill-white);
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.partners {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  /* Постійний клієнт */
+}
 .partners__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -571,8 +546,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
 }
-
-/* Постійний клієнт */
 .partners__title {
   text-align: center;
   font-size: 36px;
@@ -581,7 +554,6 @@ img {
   margin-bottom: 50px;
   color: var(--color-font-h2-h3-name);
 }
-
 .partners__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -594,12 +566,10 @@ img {
           align-items: center;
   gap: 30px;
 }
-
 .partners__item {
   width: 170px;
   height: 92px;
 }
-
 .partners__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -618,9 +588,7 @@ img {
   -webkit-transition: fill var(--hover-effect);
   transition: fill var(--hover-effect);
 }
-
-.partners__link:hover,
-.partners__link:focus {
+.partners__link:hover, .partners__link:focus {
   fill: var(--color-fill-hover);
   border: 1px solid #2196F3;
 }
@@ -629,9 +597,9 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--background-color-section1-footer);
+  /* div для двух divov */
+  /* h2 Приєднуйтесь */
 }
-
-/* div для двух divov */
 .footer__general {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -643,7 +611,6 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 .footer__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -654,7 +621,6 @@ img {
           flex-direction: column;
   width: 231px;
 }
-
 .footer__socials {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -664,8 +630,6 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
-/* h2 Приєднуйтесь */
 .footer__title {
   text-transform: uppercase;
   font-size: 14px;
@@ -677,8 +641,8 @@ img {
 
 .address {
   margin-top: 20px;
+  /* имеил и тел */
 }
-
 .address__list {
   font-style: normal;
   display: -webkit-box;
@@ -689,11 +653,9 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 .address__item:not(:last-child) {
   margin-bottom: 9px;
 }
-
 .address__map {
   color: var(--color-font-hero-address);
   font-weight: 400;
@@ -703,13 +665,9 @@ img {
   -webkit-transition: color var(--hover-effect);
   transition: color var(--hover-effect);
 }
-
-.address__map:hover,
-.address__map:focus {
+.address__map:hover, .address__map:focus {
   color: var(--button-color-web-second);
 }
-
-/* имеил и тел */
 .address__contact {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
@@ -719,9 +677,7 @@ img {
   -webkit-transition: color var(--hover-effect);
   transition: color var(--hover-effect);
 }
-
-.address__contact:hover,
-.address__contact:focus {
+.address__contact:hover, .address__contact:focus {
   color: var(--button-color-web-second);
 }
 
@@ -733,7 +689,6 @@ img {
       -ms-flex-align: end;
           align-items: flex-end;
 }
-
 .mailing__title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -746,7 +701,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--color-font-hero-address);
 }
-
 .mailing__form {
   width: 358px;
   height: 50px;
@@ -758,8 +712,7 @@ img {
   background-color: var(--background-color-section1-footer);
   border: var(--hover-effect);
 }
-
-.mailing__form:focus {
+.mailing__form__form:focus {
   border: var(--color-fill-hover);
 }
 
@@ -792,13 +745,11 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 50px;
+  /* секція фільтров кнопок */
 }
-
-.filter__item:not(:last-child) {
+.filter .filter__item:not(:last-child) {
   margin-right: 8px;
 }
-
-/* секція фільтров кнопок */
 .filter__button {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -823,9 +774,7 @@ img {
   transition: color var(--hover-effect), background-color var(--hover-effect), box-shadow var(--hover-effect);
   transition: color var(--hover-effect), background-color var(--hover-effect), box-shadow var(--hover-effect), -webkit-box-shadow var(--hover-effect);
 }
-
-.filter__button:hover,
-.filter__button:focus {
+.filter__button:hover, .filter__button:focus {
   background-color: var(--button-color-web-second);
   color: var(--color-font-hero-address);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -858,7 +807,6 @@ img {
   position: relative;
   overflow: hidden;
 }
-
 .overlay-invisible__block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -888,7 +836,6 @@ img {
   background-color: rgba(33, 150, 243, 0.9);
   color: var(--color-font-hero-address);
 }
-
 .overlay-invisible__text {
   font-size: 18px;
   line-height: 1.5555555556;

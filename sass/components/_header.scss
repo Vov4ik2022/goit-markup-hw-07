@@ -1,8 +1,8 @@
 .header {
     border-bottom: 1px solid var(--border-bottom-header);
-}
 
-.header__container {
-    display: flex;
-    align-items: center;  
+    &__container {
+        display: flex;
+        align-items: center;  
   }
+}

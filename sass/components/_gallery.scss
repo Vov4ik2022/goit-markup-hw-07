@@ -15,30 +15,31 @@
 .overlay-invisible {
     position: relative;
     overflow: hidden;
-}
 
-.overlay-invisible__block {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding-left: 24px;
-    padding-right: 24px;
-    transform: translateY(100%);
-    backdrop-filter: blur(3px);
-    user-select: none;
-    transition: transform 250ms ease-out;  
-    background-color: rgba(33, 150, 243, 0.9);
-    color: var(--color-font-hero-address);
-}
 
-.overlay-invisible__text {
-    font-size: 18px;
-    line-height: calc(28 / 18);
-    letter-spacing: 0.03em;
+    &__block {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+        transform: translateY(100%);
+        backdrop-filter: blur(3px);
+        user-select: none;
+        transition: transform 250ms ease-out;  
+        background-color: rgba(33, 150, 243, 0.9);
+        color: var(--color-font-hero-address);
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: calc(28 / 18);
+        letter-spacing: 0.03em;
+    }
 }
 
 

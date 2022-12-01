@@ -2,32 +2,33 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--background-color-section1-footer);
-}
+
 
 /* div для двух divov */
-.footer__general {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;   
+    &__general {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;   
 }
 
-.footer__container {
-    display: flex;
-    flex-direction: column;
-    width: 231px;    
+    &__container {
+        display: flex;
+        flex-direction: column;
+        width: 231px;    
 }
 
-.footer__socials {
-    display: flex;
-    flex-direction: column;  
+    &__socials {
+        display: flex;
+        flex-direction: column;  
 }
 
 /* h2 Приєднуйтесь */
-.footer__title {
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    letter-spacing: 0.03em;
-    margin-bottom: 20px;
-    color: var(--color-font-hero-address); 
+    &__title {
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.03em;
+        margin-bottom: 20px;
+        color: var(--color-font-hero-address); 
+    }
 }
