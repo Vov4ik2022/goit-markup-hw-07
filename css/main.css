@@ -45,6 +45,19 @@
   margin: -1px;
 }
 
+.portfolio, .team, .services, .advantage__container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.portfolio-container, .footer__general, .partners__container, .team, .services__container, .advantage__container, .hero__container, .header {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -228,6 +241,8 @@ img {
 .hero {
   background-color: var(--background-color-section1-footer);
   height: 600px;
+  padding-top: 0;
+  padding-bottom: 94px;
 }
 .hero__overlay {
   max-width: 1600px;
@@ -372,7 +387,6 @@ img {
 .services {
   padding-top: 0;
 }
-
 .services__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -382,7 +396,6 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 .services__title {
   font-size: 36px;
   line-height: 1.1666666667;
@@ -416,7 +429,6 @@ img {
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
 }
-
 .overlay__text {
   text-align: center;
   text-transform: uppercase;

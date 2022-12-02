@@ -1,5 +1,7 @@
 /* цвет фона общий*/
 .team {
+    @extend %section;
+    @extend %container;
     background-color: var(--background-color-team);
 
 

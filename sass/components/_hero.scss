@@ -1,8 +1,8 @@
-.hero {
+.hero { 
     background-color: var(--background-color-section1-footer);
     height: 600px;  
-
-
+    @include section(0, 94px);
+    
     &__overlay {
         max-width: 1600px;
         height: 600px;
@@ -15,10 +15,11 @@
         background-position: center;
         background-size: cover;
         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
-        url(../images/hero.jpg);    
+        url(../images/hero.jpg);   
     }
 
     &__container {
+        @extend %container;
         display: flex;
         flex-direction: column;
         align-items: center;  

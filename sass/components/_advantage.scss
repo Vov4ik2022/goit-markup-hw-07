@@ -4,6 +4,8 @@
 
 
     &__container {
+        @extend %section;
+        @extend %container;
         display: block;
     }
 }

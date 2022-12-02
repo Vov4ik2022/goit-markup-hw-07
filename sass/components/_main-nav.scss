@@ -1,8 +1,7 @@
 .main-nav {
     margin-right: auto;    
 
-
-    &__list {
+    &__list {    
         display: flex;
         align-items: center;
         gap: 50px;
@@ -23,16 +22,20 @@
         &:hover,
         &:focus {
             color: var(--button-color-web-second);    
+            
         }
-    
+        // === Рисочка ===
         &::after {
         content: '';
         position: absolute;
         left: 50%;
         bottom: -1%;
         transform: translateX(-50%); 
+        
         } 
+        
     }
+  
 }  
 
 
