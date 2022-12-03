@@ -1,8 +1,7 @@
 .partners {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    @extend %section;
 
-    &__container {
+    &__block {
         @extend %container;
         display: flex;
         flex-direction: column;

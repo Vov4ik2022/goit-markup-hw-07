@@ -1,9 +1,7 @@
 /* цвет фона общий*/
-.team {
-    @extend %section;
-    @extend %container;
+.team {   
     background-color: var(--background-color-team);
-
+    @extend %section;
 
 /* заглавие */
     &__title {
@@ -14,6 +12,9 @@
         margin-bottom: 50px;
         color: var(--color-font-h2-h3-name);
     }
+}
+.team__block {
+    @extend %container;
 }
 
 .team-list {

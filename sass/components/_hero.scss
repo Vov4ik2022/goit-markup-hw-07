@@ -1,11 +1,10 @@
 .hero { 
     background-color: var(--background-color-section1-footer);
-    height: 600px;  
-    @include section(0, 94px);
+    
     
     &__overlay {
         max-width: 1600px;
-        height: 600px;
+        
         margin-left: auto;
         margin-right: auto;
         padding-top: 200px;
@@ -18,8 +17,8 @@
         url(../images/hero.jpg);   
     }
 
-    &__container {
-        @extend %container;
+    &__block {
+       
         display: flex;
         flex-direction: column;
         align-items: center;  

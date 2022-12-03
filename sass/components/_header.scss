@@ -1,10 +1,13 @@
 .header {
-  @extend %container;
+  
   border-bottom: 1px solid var(--border-bottom-header);
 
-  &__container {
-    
-      display: flex;
-      align-items: center;        
+  
+
+
+  &__block {
+    @extend %container;
+    display: flex;
+    align-items: center;        
   }
 }
