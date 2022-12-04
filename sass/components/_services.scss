@@ -2,8 +2,7 @@
     @extend %section;
     padding-top: 0;
 
-    &__block {
-        @extend %container;
+    &__block {        
         display: flex;
         flex-direction: column;
     }

@@ -13,9 +13,6 @@
         color: var(--color-font-h2-h3-name);
     }
 }
-.team__block {
-    @extend %container;
-}
 
 .team-list {
     display: flex; 

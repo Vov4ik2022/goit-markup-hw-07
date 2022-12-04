@@ -6,7 +6,6 @@
 
 /* div для двух divov */
     &__general {
-        @extend %container;
         display: flex;
         align-items: baseline;
         justify-content: space-between;   
